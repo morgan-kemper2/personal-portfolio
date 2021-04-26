@@ -794,6 +794,16 @@ grid__item,
   position: relative;
 }
 
+@media all and (max-width: 500px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  .grid__item:last-child {
+    grid-column: auto / auto;
+    grid-row: auto / auto;
+  }}
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
