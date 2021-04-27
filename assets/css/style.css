@@ -808,13 +808,12 @@ grid__item,
     grid-row: auto / auto;
   }
   .overview {
-    text-align: center;
-    padding: 10px;
+    text-align: left;
+    margin-right: 10px;
   }
   .conclusion {
     text-align: center;
-    padding: 10px;
-  }
+    margin-right: 10px;  }
 }
 
 /*--------------------------------------------------------------
