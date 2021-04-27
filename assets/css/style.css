@@ -801,7 +801,6 @@ grid__item,
 @media all and (max-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
-    grid-gap: 10px;
   }
   .grid__item:last-child {
     grid-column: auto / auto;
@@ -809,11 +808,11 @@ grid__item,
   }
   .overview {
     text-align: left;
-    margin-right: 10px;
+    max-width: fit-content;
   }
   .conclusion {
-    text-align: center;
-    margin-right: 10px;  }
+    text-align: left;
+    max-width: fit-content;  }
 }
 
 /*--------------------------------------------------------------
